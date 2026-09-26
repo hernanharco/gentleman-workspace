@@ -1,0 +1,54 @@
+# ============================================
+# .gitignore — Gentleman (CREDENCIALES SENSIBLES)
+# ============================================
+# Este proyecto registra flujos remotos, claves y
+# documentación operativa. Revisar antes de subir a GitHub.
+
+# --- Credenciales de entorno ---
+.env
+.env.*
+!.env.example
+.env.passwords
+
+# --- Claves SSH (nunca) ---
+*.pem
+*.key
+*.ppk
+*.p12
+*.pfx
+*.jks
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+id_ecdsa
+id_ecdsa.pub
+id_rescue
+id_rescue.pub
+*id_rsa*
+*id_ed25519*
+
+# --- Documentación de acceso remoto: REVISAR ANTES DE SUBIR ---
+# Estos .md pueden contener IPs internas, claves o rutas sensibles:
+#   ACCESO-REMOTO.md
+#   SERVIDOR-HETZNER.md
+#   ECOSISTEMA-GENTLEMAN.md
+#   RUNBOOK-SETUP-COMPLETO.md
+#   CLAVES-SSH-AUTORIZACION.md
+#   RECUPERACION-DESASTRES.md
+# No se ignoran por defecto (son docs útiles), pero SANITIZAR
+# IPs locales, claves y contraseñas si se van a hacer públicos.
+
+# --- Scripts con posible lógica de credenciales ---
+# scripts/            → revisar antes de subir
+# backups/            → NO subir backups
+
+# --- Directorio de skills/cache local ---
+.atl/
+
+# --- Generales ---
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+node_modules/
