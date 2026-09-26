@@ -3,7 +3,7 @@
 > **Objetivo**: Replicar en otra máquina el ecosistema completo del video de Gentle AI:
 > terminal GPU + multiplexor de agentes persistentes + acceso remoto seguro + notificaciones al móvil.
 >
-> **Última verificación**: 16 de agosto de 2026 · **Máquina de origen**: PC-harco (Linux x86_64, Ubuntu)
+> **Última verificación**: 23 de septiembre de 2026 · **Máquina de origen**: PC-harco (Linux x86_64, Ubuntu)
 > **Móvil**: realme-c75 (Android) con app Moshi
 
 ---
@@ -17,9 +17,9 @@
    ▼
 🖥️ PC-HARCO (la máquina de trabajo)
    ├── Kitty 0.32.2          → terminal GPU (liviana)
-   ├── Herdr 0.8.0           → multiplexor + runtime de agentes (workspaces, sidebar, persistencia)
+   ├── Herdr 0.9.0           → multiplexor + runtime de agentes (workspaces, sidebar, persistencia)
    ├── moshi-hook 0.2.85     → daemon de notificaciones/eventos de agentes → push al móvil
-   ├── Tailscale 1.102.2     → red privada (IP: 100.122.199.125)
+   ├── Tailscale 1.102.4     → red privada (IP: 100.122.199.125)
    ├── OpenSSH               → SOLO escucha en IP de Tailscale
    ├── UFW                   → firewall: deny entrantes, allow solo tailscale0
    └── loginctl linger       → procesos sobreviven al cierre de sesión
@@ -56,7 +56,7 @@ brew install herdr
 curl -fsSL https://herdr.dev/install.sh | sh
 ```
 
-Verificar: `herdr --version` → 0.8.0
+Verificar: `herdr --version` → 0.9.0
 
 ### 1.3 Config de Herdr (`~/.config/herdr/config.toml`)
 
