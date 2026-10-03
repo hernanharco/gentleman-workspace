@@ -20,3 +20,10 @@
 - Regla del repo (AGENTS.md): commits chicos y convencionales; documentar decisiones.
 - El CI de Gentleman-Skills exige `community/<skill>/SKILL.md`; `curated/` está prohibido para contribuciones de la comunidad.
 - `~/.claude/agents/` no trae `sdd-*` upstream desde v4 (verificado contra main con `gh api .../git/trees`).
+
+## Evidencia de cierre (2026-10-03)
+
+- Commits: `e3628c3` (Gentleman-Skills, push a fork hernanharco) + `89c859f` (feature doc, rama `feat/ecosystem-pending-cleanup`).
+- Native review (RDD on): lineage `review-6b47289c78482f8b` → **approved** (lente review-reliability, 1 run) → acknowledge **burned** (`gentle-ai.review-acknowledged/v1`); advisory no bloqueante `R3-SubmodulePointerOnly` (WARNING, informational).
+- Verificaciones: CI PR #23 verde; `engram doctor` unowned→ok (warnings 3→2, errors=0); 8/8 agents diff 0 vs v4.0.0; `gentle-ai doctor` 11/11 (inicio de sesión).
+- Pendiente usuario: merge de la rama a master; monitoreo PR #5091 y review/merge de #23; relanzar OpenCode.
