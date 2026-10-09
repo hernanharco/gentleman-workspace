@@ -2,7 +2,7 @@
 
 > Feature: Auditar y organizar el ecosistema Gentleman
 > Started: 2026-09-23
-> Status: in_progress — reconciliado 2026-10-09 (varios items cerrados con evidencia)
+> Status: completed 2026-10-09 (todas las tareas cerradas; B3 obsoleto)
 
 ## Context
 
@@ -28,15 +28,15 @@ El workspace `gentleman/` tiene docs sueltos, Gentleman-Skills clonado de GitHub
 - [x] ~~**B3** Integrar/limpiar `gentleman/datos.md`~~ (obsoleto: `datos.md` nunca se creó; el contenido vive en `docs/`)
 
 ### C. Skills — Inventario
-- [ ] **C1** Auditar skills Gentleman-Skills vs gentle-pi (inventario tomado: 13 vs 16+9; cruzado pendiente)
-- [ ] **C2** Identificar skills faltantes para tech stack
+- [x] **C1** Auditar skills Gentleman-Skills vs gentle-pi → `docs/AUDITORIA-SKILLS.md` §1
+- [x] **C2** Identificar skills faltantes para tech stack → `docs/AUDITORIA-SKILLS.md` §3
 
 ### D. Package — Contributions
 - [x] **D1** Evaluar si hay updates de gentle-pi disponibles
 - [x] **D2** Identificar bugs/mejoras para contribuir al package
 
 ### E. Documentación
-- [ ] **E1** Actualizar RUNBOOK-SETUP-COMPLETO.md (refresco de versiones en curso 2026-10-09)
+- [x] **E1** Actualizar RUNBOOK-SETUP-COMPLETO.md (refresco de versiones 2026-10-09)
 - [x] **E2** Documentar flujos de trabajo prácticos
 
 ## Completadas (reconciliación 2026-10-09)
@@ -45,8 +45,10 @@ El workspace `gentleman/` tiene docs sueltos, Gentleman-Skills clonado de GitHub
 - **B1**: estructura `docs/ odd/ scripts/ tests/ backups/ Gentleman-Skills/` + `AGENTS.md` + `.codegraph`.
 - **B2**: `origin = https://github.com/hernanharco/gentleman-workspace.git`.
 - **B3**: obsoleto — `datos.md` no existe y nunca fue creado; la info quedó en `docs/`.
+- **C1/C2**: `docs/AUDITORIA-SKILLS.md` (2026-10-09): inventarios cruzados (12 gentle-pi vs 16 curated + 9 community, complementarias sin conflicto) + 6 gaps priorizados (agentes/LLM, SQL, bash, CI/CD, API design, seguridad).
 - **D1**: gentle-pi 4.0.0 = última release (upgradeado 2026-10-03, verificado 2026-10-09).
 - **D2**: contribuciones materializadas: PR #23 Gentleman-Skills (go-testing, docker, svelte-astro) + issue gentle-shell#626 (herdr dot background, assignee decode2) + patch local herdr:busy.
+- **E1**: RUNBOOK refrescado 2026-10-09 (Herdr 0.9.3 + fecha de verificación).
 - **E2**: `docs/FLUJOS-DE-TRABAJO.md` (188 líneas).
 
-Pendientes restantes: **C1/C2** (cruce de inventario de skills) y **E1** (refresco del RUNBOOK, task #17 del todo activo).
+**Estado: todas las tareas cerradas** (B3 obsoleto).
