@@ -27,7 +27,7 @@
 ├──────────────────────────────────────────────────────────────────┤
 │                                                                   │
 │   ┌──────────────────────────────────────────────────────────┐   │
-│   │  CAPA 1: GENTLEMAN.DOTS (⭐ 1.8k)                        │   │
+│   │  CAPA 1: GENTLEMAN.DOTS (⭐ 2.0k)                        │   │
 │   │  "Dev Environment"                                        │   │
 │   │                                                           │   │
 │   │  🖥️ Terminal: Ghostty / Kitty / WezTerm / Alacritty      │   │
@@ -40,11 +40,11 @@
 │                              │                                     │
 │                              ▼                                     │
 │   ┌──────────────────────────────────────────────────────────┐   │
-│   │  CAPA 2: GENTLE-AI (⭐ 3.6k)                             │   │
+│   │  CAPA 2: GENTLE-AI (⭐ 7.9k)                             │   │
 │   │  "AI Development Layer"                                  │   │
 │   │                                                           │   │
-│   │  🧠 Engram     → Memoria persistente                      │   │
-│   │  📋 SDD        → Workflow (Spec-Driven Development)       │   │
+│   │  🧠 Engram     → Memoria persistente (⭐ 7.4k)           │   │
+│   │  📋 ODD / RDD  → Workflows (orgánico + review-driven)    │   │
 │   │  🛠️ Skills     → Patrones de coding                       │   │
 │   │  📚 Context7   → Documentación on-demand                  │   │
 │   │  😇 GGA        → Code review con AI                       │   │
@@ -53,7 +53,7 @@
 │                              │                                     │
 │                              ▼                                     │
 │   ┌──────────────────────────────────────────────────────────┐   │
-│   │  CAPA 3: GENTLEMAN-SKILLS (⭐ 540)                        │   │
+│   │  CAPA 3: GENTLEMAN-SKILLS (⭐ 660)                        │   │
 │   │  "Coding Patterns"                                        │   │
 │   │                                                           │   │
 │   │  React 19 │ Next.js 15 │ TypeScript │ Tailwind 4          │   │
@@ -67,7 +67,7 @@
 │   │                                                           │   │
 │   │  Claude Code (principal)  │ OpenCode │ Cursor             │   │
 │   │  Gemini CLI │ VS Code Copilot │ Codex │ Windsurf         │   │
-│   │  Antigravity │ Kiro IDE                                   │   │
+│   │  Antigravity │ Kiro IDE │ Gentle Shell (Pi)              │   │
 │   └──────────────────────────────────────────────────────────┘   │
 │                                                                   │
 └──────────────────────────────────────────────────────────────────┘
@@ -82,6 +82,12 @@
 | engram | https://github.com/Gentleman-Programming/engram | Memoria persistente |
 | Gentleman-Skills | https://github.com/Gentleman-Programming/Gentleman-Skills | Coding patterns |
 | gga | https://github.com/Gentleman-Programming/gentleman-guardian-angel | Code review AI |
+| gentle-shell | https://github.com/Gentleman-Programming/gentle-shell | Harness de agentes (terminal Pi) |
+| agent-teams-lite | https://github.com/Gentleman-Programming/agent-teams-lite | Equipos de agentes ligeros |
+| gentle-dot | https://github.com/Gentleman-Programming/gentle-dot | Asistente de escritorio (Mac) |
+| homebrew-tap | https://github.com/Gentleman-Programming/homebrew-tap | Fórmulas brew del ecosistema |
+
+> Stars y actividad verificados contra la API de GitHub el 2026-10-19.
 
 ---
 
