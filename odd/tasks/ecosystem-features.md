@@ -35,7 +35,7 @@
 | 10 | Commit fase 3 | 3 | — | done | `561cb85` (rama `feat/community-skills-gaps`) |
 | 11 | Backup tar de `sdd-*` en claude/gemini/cursor + verificación | 4 | `~/.gentle-shell/backup-skills-sdd-20261019.tar.gz` | done | — |
 | 12 | Borrar 31 skills `sdd-*` (11 claude + 10 gemini + 10 cursor) tras confirmación S6 | 4 | `~/.claude/skills`, `~/.gemini/skills`, `~/.cursor/skills` | done | — |
-| 13 | Commit fase 4 (evidencia en doc) + cierre | 4 | `odd/tasks/ecosystem-features.md` | done | `d483233` |
+| 13 | Commit fase 4 (evidencia en doc) + cierre | 4 | `odd/tasks/ecosystem-features.md` | done | commit de cierre en `feat/ecosystem-doctor` (ver `git log`) |
 
 ## Log
 
